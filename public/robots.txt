@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cehub.element-trac-group.id.vn/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /resources/
+Allow: /practice/
+Allow: /community/
+Allow: /about/
+Allow: /contact/
+
+# Allow static resources
+Allow: /static/
+Allow: /images/
+Allow: /css/
+Allow: /js/
